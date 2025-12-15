@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GestionProductos
+namespace GestionProductos.Forms
 {
-    public partial class Form1 : Form
+    public partial class GProductos : Form
     {
-        public Form1()
+        public GProductos()
         {
             InitializeComponent();
+        }
+
+        private void GestionProductos_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
