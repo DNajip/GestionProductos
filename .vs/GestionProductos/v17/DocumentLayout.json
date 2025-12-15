@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|e:\\programaci\u00F3n\\programas en visual c#\\gestionproductos\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:forms\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:forms\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:data\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,71 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.cs",
-              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\Login.cs",
-              "RelativeToolTip": "Forms\\Login.cs",
-              "ViewState": "AQIAAGoAAAAAAAAAAAAIwFQAAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T09:57:21.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.Designer.cs",
-              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\Login.Designer.cs",
-              "RelativeToolTip": "Forms\\Login.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T06:04:02.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConexionBD.cs",
-              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Data\\ConexionBD.cs",
-              "RelativeDocumentMoniker": "Data\\ConexionBD.cs",
-              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Data\\ConexionBD.cs",
-              "RelativeToolTip": "Data\\ConexionBD.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAwBcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T06:08:27.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.config",
-              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-12-15T09:52:02.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\Login.cs",
-              "RelativeDocumentMoniker": "Forms\\Login.cs",
-              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\Login.cs [Design]",
-              "RelativeToolTip": "Forms\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T03:58:31.838Z"
             }
           ]
         }

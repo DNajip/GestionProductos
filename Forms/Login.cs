@@ -19,9 +19,6 @@ namespace GestionProductos
         {
             InitializeComponent();
 
-            SqlConnection conexion = ConexionBD.ObtenerConexion();
-            conexion.Open();
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -128,6 +125,13 @@ namespace GestionProductos
         {
             Registro frmRegistro = new Registro();
             frmRegistro.Show();
+            this.Hide();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+
         }
     }
 }

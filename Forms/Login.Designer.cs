@@ -35,7 +35,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtpassword = new System.Windows.Forms.TextBox();
             this.txtusuario = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
             this.btnRegistro = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -110,14 +110,15 @@
             this.txtusuario.TabIndex = 6;
             this.txtusuario.TextChanged += new System.EventHandler(this.txtusuario_TextChanged);
             // 
-            // button2
+            // btnExit
             // 
-            this.button2.Location = new System.Drawing.Point(394, 14);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(57, 25);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnExit.Location = new System.Drawing.Point(394, 14);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(57, 25);
+            this.btnExit.TabIndex = 7;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnRegistro
             // 
@@ -135,7 +136,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(463, 612);
             this.Controls.Add(this.btnRegistro);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.txtusuario);
             this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.label4);
@@ -143,6 +144,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
@@ -161,7 +163,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtpassword;
         private System.Windows.Forms.TextBox txtusuario;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnRegistro;
     }
 }
