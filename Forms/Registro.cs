@@ -49,9 +49,7 @@ namespace GestionProductos.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Login frmlogin = new Login();
-            frmlogin.Show();
-            this.Hide();
+            
         }
         private bool CorreoValido(string correo)
         {
@@ -103,7 +101,7 @@ namespace GestionProductos.Forms
 
             if (!CorreoValido(txtCorreo.Text))
             {
-                MessageBox.Show("Formato de correo inválido Debe ser: @gmail.com");
+                MessageBox.Show("Formato de correo inválido Debe ser: usuario@gmail.com");
                 return;
             }
 
@@ -112,12 +110,13 @@ namespace GestionProductos.Forms
                 MessageBox.Show("El campo teléfono está vacío");
                 return;
             }
-
-            if (txtTelefono.Text.Length != 8)
+            if (!txtTelefono.MaskCompleted)
             {
-                MessageBox.Show("El teléfono debe tener 8 dígitos");
+                MessageBox.Show("El teléfono debe tener el formato 0000-0000");
                 return;
             }
+
+
 
             try
             {
@@ -166,7 +165,7 @@ namespace GestionProductos.Forms
                     cmd.Parameters.AddWithValue("@usuario", txtUsuario.Text.Trim());
                     cmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
                     cmd.Parameters.AddWithValue("@email", txtCorreo.Text.Trim());
-                    cmd.Parameters.AddWithValue("@telefono", txtTelefono.Text.Trim());
+                    cmd.Parameters.AddWithValue("@telefono", txtTelefono.Text);
 
                     cmd.ExecuteNonQuery();
 
@@ -207,7 +206,26 @@ namespace GestionProductos.Forms
         {
 
         }
-      
 
+        private void txtCorreo_Validating(object sender, CancelEventArgs e)
+        {
+            if (!CorreoValido(txtCorreo.Text))
+            {
+                MessageBox.Show("El correo debe tener el formato nombreusuario@correo.com");
+                e.Cancel = true; // No deja salir del campo
+            }
+        }
+
+        private void txtTelefono_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Login frmlogin = new Login();
+            frmlogin.Show();
+            this.Hide();
+        }
     }
 }

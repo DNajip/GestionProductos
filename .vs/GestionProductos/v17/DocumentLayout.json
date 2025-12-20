@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|e:\\programaci\u00F3n\\programas en visual c#\\gestionproductos\\forms\\gproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:forms\\gproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\forms\\opcionesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:forms\\opcionesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\forms\\opcionesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:forms\\opcionesproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\forms\\gproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F1A9C596-8397-4C80-A0E5-F78514845B9B}|GestionProductos.csproj|solutionrelative:forms\\gproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GProductos.cs",
+              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\GProductos.cs",
+              "RelativeDocumentMoniker": "Forms\\GProductos.cs",
+              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\GProductos.cs",
+              "RelativeToolTip": "Forms\\GProductos.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAiwHUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:43:39.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GProductos.cs [Design]",
+              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\GProductos.cs",
+              "RelativeDocumentMoniker": "Forms\\GProductos.cs",
+              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\GProductos.cs [Design]",
+              "RelativeToolTip": "Forms\\GProductos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T12:03:08.464Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OpcionesProducto.cs [Design]",
+              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\OpcionesProducto.cs",
+              "RelativeDocumentMoniker": "Forms\\OpcionesProducto.cs",
+              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\OpcionesProducto.cs [Design]",
+              "RelativeToolTip": "Forms\\OpcionesProducto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:52:53.725Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T03:04:27.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OpcionesProducto.cs",
+              "DocumentMoniker": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\OpcionesProducto.cs",
+              "RelativeDocumentMoniker": "Forms\\OpcionesProducto.cs",
+              "ToolTip": "E:\\Programaci\u00F3n\\Programas en Visual C#\\GestionProductos\\Forms\\OpcionesProducto.cs",
+              "RelativeToolTip": "Forms\\OpcionesProducto.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvxEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T10:56:03.519Z",
+              "EditorCaption": ""
             }
           ]
         }

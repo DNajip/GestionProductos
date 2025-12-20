@@ -27,7 +27,7 @@ create table proveedores (
 
 create table productos (
     id int identity(1,1) primary key,
-    nombre varchar(50) not null,
+    producto varchar(50) not null,
     existencia int not null,
     estado varchar(8) not null,
     id_proveedor int not null ,
@@ -82,7 +82,7 @@ values
 ('proveedor4'),
 ('proveedor5');
 
-insert into productos (nombre, existencia, estado, id_proveedor)
+insert into productos (producto, existencia, estado, id_proveedor)
 values
 ('vaso plastico', 150, 'activo', 1),
 ('plato ceramico', 80, 'activo', 2),
@@ -111,7 +111,7 @@ values
 --Ver tabla de producto con opciones y sin opciones
 select 
     p.id,
-    p.nombre as producto,
+    p.producto as producto,
     p.existencia,
     p.estado,
     o.opcion

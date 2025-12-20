@@ -53,24 +53,38 @@ end;
 go
 -- funcionalidad: crear un nuevo producto
 create procedure crear_producto
-    @nombre varchar(50),
+    @producto varchar(50),
     @existencia int,
     @estado varchar(8),
     @id_proveedor int
 as
 begin
-    insert into productos (nombre, existencia, estado, id_proveedor)
-    values (@nombre, @existencia, @estado, @id_proveedor);
+    insert into productos (producto, existencia, estado, id_proveedor)
+    values (@producto, @existencia, @estado, @id_proveedor);
 end;
 go
 
 -- funcionalidad: listar todos los productos
-create procedure listar_productos
-as
-begin
-    select * from productos;
-end;
-go
+--create procedure listar_productos
+--as
+--begin
+--    select * from productos;
+--end;
+--go
+CREATE PROCEDURE listar_productos
+AS
+BEGIN
+    SELECT
+        p.id,
+        p.producto,
+        p.existencia,
+        p.estado,
+        pr.proveedor
+    FROM productos p
+    INNER JOIN proveedores pr ON p.id_proveedor = pr.id;
+END;
+GO
+
 -- funcionalidad: obtener un producto por su id
 create procedure obtener_producto
     @id int
@@ -84,14 +98,14 @@ go
 -- funcionalidad: actualizar un producto existente
 create procedure actualizar_producto
     @id int,
-    @nombre varchar(50),
+    @producto varchar(50),
     @existencia int,
     @estado varchar(8),
     @id_proveedor int
 as
 begin
     update productos
-    set nombre = @nombre,
+    set producto = @producto,
         existencia = @existencia,
         estado = @estado,
         id_proveedor = @id_proveedor
@@ -150,3 +164,37 @@ begin
     where id = @id;
 end;
 go
+
+--buscar producto con el filtro de busqueda
+CREATE PROCEDURE buscar_productos
+    @texto VARCHAR(50)
+AS
+BEGIN
+    SELECT
+        p.id,
+        p.producto,
+        p.existencia,
+        p.estado,
+        pr.proveedor
+    FROM productos p
+    INNER JOIN proveedores pr ON p.id_proveedor = pr.id
+    WHERE p.producto LIKE '%' + @texto + '%';
+END;
+GO
+
+--Listar productos por estado
+create procedure listar_productos_por_estado
+ @estado varchar(8)
+ as
+ begin
+    select
+        p.id,
+        p.producto,
+        p.existencia,
+        p.estado,
+        pr.proveedor
+    from productos p 
+    inner join proveedores pr on p.id_proveedor = pr.id
+    where p.estado = @estado;
+    end;
+    go

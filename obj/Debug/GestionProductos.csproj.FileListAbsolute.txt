@@ -13,3 +13,4 @@ E:\Programación\Programas en Visual C#\GestionProductos\bin\Debug\System.Config
 E:\Programación\Programas en Visual C#\GestionProductos\bin\Debug\System.Configuration.ConfigurationManager.xml
 E:\Programación\Programas en Visual C#\GestionProductos\obj\Debug\GestionP.A760C986.Up2Date
 E:\Programación\Programas en Visual C#\GestionProductos\obj\Debug\GestionProductos.Forms.GProductos.resources
+E:\Programación\Programas en Visual C#\GestionProductos\obj\Debug\GestionProductos.Forms.OpcionesProducto.resources
